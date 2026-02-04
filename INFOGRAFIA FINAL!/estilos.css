@@ -1,0 +1,1247 @@
+/*Modificadores*/
+.blur{
+    filter: blur(1vw);
+
+}
+.ocultar{
+    opacity: 0%;
+    transition: opacity 1s ease, transform 1.2s ease;
+}
+
+.borde{
+    filter: drop-shadow(0px 0px 1vw rgb(250, 9, 9));
+    z-index: 99;
+}
+.aparecer{
+    opacity: 100%;
+    transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.sombra{
+  position: absolute;
+  filter: drop-shadow(0px 2vh 2vw rgba(255, 255, 255, 0.952));
+  width: 3vw;
+  height: 6vh;
+  border-radius: 60vw;
+  background-color: #ffffff;
+  margin-top: 82.5vh;
+  margin-left: 47vw;
+  z-index: 50;
+}
+
+.bordeTrivia{
+  filter: drop-shadow(0px 0px 1vw rgb(0, 0, 0));
+  box-shadow: 0 0 0 0.4vw rgb(0,0,0);
+  border-radius: 10px;
+}
+.oculto{
+display: none;
+}
+
+.positionAbsolute{
+    position: absolute;
+}
+
+.textoCentro{
+    text-align: center;
+}
+
+.nucleoElegido{
+width: 11vw;
+height: 20vh;
+border-radius: 12vw;
+background: radial-gradient(#F43333, #D62424, #000000) ;
+box-shadow: 0 0 0 10px rgb(100, 99, 99);
+position: absolute;
+}
+.nucleoNormal{
+width: 11vw;
+height: 20vh;
+border-radius: 12vw;
+background: radial-gradient(#675D5D, #888888, #1D1D1D) ;
+position: absolute;
+box-shadow: inset 0 0 0 5px rgb(0,0,0);
+}
+
+.contenedor__Normales{
+    border-radius: 120px;
+    width: 100px ;
+    height: 100px ;
+    background: linear-gradient(to right, #E95353, #BB4747);
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(-5px 5px 6px rgb(10, 10, 10));
+}
+.contenedor__Definicion{
+    border-radius: 120px;
+    width: 100px ;
+    height: 100px ;
+    background: linear-gradient(to right, #E95353, #BB4747);
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(-5px 5px 6px rgb(10, 10, 10));
+}
+.seleccion{
+    box-shadow: inset 0 0 0 2px rgb(0,0,0);
+}
+.opacidad{
+    opacity: 50%;
+}
+/*FIN*/
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    box-shadow: inset 0 0 0 20px #9D2727; /* Cambia el color y el grosor */
+position: relative;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;    
+    background-image: url("./Imagenes/fondo.png") ;
+    background-size: cover;
+   overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Staatliches-Regular';
+    src: url('./Fuentes/Staatliches-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SquadaOne-Regular';
+    src: url('./Fuentes/SquadaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Spinnaker-Regular';
+    src: url('./Fuentes/Spinnaker-Regular.ttf');
+}
+/*----------indice----------*/
+.indice{
+width: 25vw;
+height: 45vh;
+border-radius: 30vw;
+background-color: #D9D9D9;
+position: absolute;
+margin-top: 120vh;
+margin-left: -2vw;
+box-shadow: inset 0 0 0 5px rgb(0,0,0);
+z-index: 99;
+}
+
+.inner__indice{
+width: 12vw;
+height: 21vh;
+border-radius: 30vw;
+background-color: #222020;
+z-index: 99;
+position: absolute;
+margin-left: 25%;
+margin-top: 27%;
+}
+
+
+.position1__indice{
+    margin-top: -5vh;
+    margin-left: -4.4vw;
+}
+
+.position2__indice{
+    margin-top: -12vh;
+    margin-left: 7vw;
+}
+
+.position3__indice{
+    margin-top: 18vh;
+    margin-left: 20vw;
+}
+
+.position4__indice{
+    margin-top: 37vh;
+    margin-left: 13vw;
+}
+.positionCentro__indice{
+    margin-left: 18.5vw;
+    margin-top: -4.5vh;
+}
+
+/*-----------INICIO-----------*/
+.Inicio{
+    height: 100%;
+    width: 100%;
+    background-color: #9D2727;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    z-index: 0;
+}
+
+.imgLogo__Inicio {
+    max-width: 15vw;
+    max-height: 10vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    z-index: 5;
+
+}
+
+.texto__Inicio{
+    font-size: 2vw;
+    margin-left: 10vw;
+    margin-top: -7vh;
+    z-index: 6;
+}
+.imgPolitico__Inicio{
+    margin-top: 21vh;
+    width: 25vw;
+    height: 70vh;
+    z-index: 7;
+    
+}
+.triangulo__Inicio {
+    width: 0;
+    height: 0;
+    border-top: 50vh solid #D9D9D9; 
+    border-right: 50vw solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 50vw;
+    z-index: -1;
+    filter: drop-shadow(0px -20px 2vw rgb(12, 12, 12));
+}
+.titulo__Inicio{
+    font-size: 3.4vw;
+    color: white;
+    position: absolute;
+    margin-top: -64vh;
+    margin-left: 20vw;
+    margin-right: 50vw;
+    filter: drop-shadow(2px 2px 5px rgb(12, 12, 12));
+}
+
+.subTitulo__Inicio{
+    font-size: 1.8vw;
+    color: white;
+    position: absolute;
+    margin-top: -45vh;
+    margin-left: 20vw;
+    margin-right: 50vw;
+    filter: drop-shadow(2px 2px 5px rgb(12, 12, 12));
+}
+.indicador__Inicio{
+    font-size: 1vw;
+    color: black;
+    text-align: center;
+    position: absolute;
+    margin-top: -25vh;
+    margin-left: 35vw;
+    margin-right: 60vw;
+}
+.boton__Inicio{
+position: absolute;
+margin-top: 70vh;
+margin-left: 10.5vw;
+height: 15vh;
+width: 7vw;
+}
+.fondoDerecha__Inicio{
+    position: absolute;
+    margin-top: -9.5vh;
+    margin-left: 25vw;
+    height: 99.9vh;
+    width: 50vw;
+}
+.fondoDerecha2__Inicio{
+    position: absolute;
+    margin-top: -7.5vh;
+    margin-left: 25.8vw;
+    height: 97vh;
+    width: 48.3vw;
+}
+.subTituloDerecha__Inicio{
+    text-align: center;
+    color: black;
+    font-size: 2.2vw;
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 55vw;
+    margin-right: 5vw;
+    z-index: 99;
+}
+.politicoImg__Inicio{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 42vw;
+    height: 24vh;
+    width: 15vw;
+    z-index: 99;
+}
+.tarimaImg__Inicio{
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 43vw;
+    height: 30vh;
+    width: 14vw;
+    z-index: 99;
+}
+.micImg__Inicio{
+    position: absolute;
+    margin-top: 39vh;
+    margin-left: 43vw;
+    height: 10vh;
+    width: 6vw;
+    z-index: 99;
+}
+.publicoImg__Inicio{
+    position: absolute;
+    margin-top: 54.7vh;
+    margin-left: 26vw;
+    height: 34vh;
+    width: 47.9vw;
+    z-index: 99;
+}
+
+/*---------TUTORIAL--------*/
+
+.pantalla__tutorial{
+width: 100%;
+height: 100%; 
+position: relative;
+z-index: 999; 
+margin-top: -100vh;
+}
+.pantalla__tutorial h1{
+    font-size: 4vw;
+    margin-left: 45vw;
+    margin-top: 10vh;
+}
+
+.contenedor__tutorial{
+background-color: #9D2727;
+height: 50vh;
+width: 20vw;
+padding: 1%;
+color: white;
+margin-top: 10vh;
+margin-left: 25vw;
+margin-right: 50vw;
+}
+.contenedor__tutorial h3{
+    text-align: center;
+    font-size: 2.4vw;
+}
+.contenedor__tutorial li{
+font-size: 1.4vw;
+padding: 1.5vh;
+}
+.flecha1__tutorial{
+    position: absolute;
+    margin-top: -60vh;
+    margin-left: 55vw;
+    width: 28vw;
+    height: auto;
+}
+.boton__tutorial{
+    position: absolute;
+    margin-top: -18vh;
+    margin-left: 28vw;
+    width: 3vw;
+    height: auto;
+}
+.flecha2__tutorial{
+    position: absolute;
+    margin-top: -35vh;
+    margin-left: 51vw;
+    transform: rotate(180deg);
+}
+.flecha3__tutorial{
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 59vw;
+    transform: rotate(-90deg);
+}
+.flecha4__tutorial{
+    position: absolute;
+    margin-top: -20vh;
+    margin-left: 59vw;
+    transform: rotate(90deg);
+    z-index: -2;
+}
+.politico__tutorial{
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: -27vh;
+    height: 48vh;
+    width: 18vw;
+}
+.dialogo__tutorial{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    height: 15vh;
+    width: 22vw;
+    margin-left: 58vw;
+    margin-right: 17vw;
+    margin-top: -10vh;
+    padding: 1%;
+    filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+    z-index: -1;
+}
+.dialogo__tutorial img{
+position: absolute;
+height: 50px;
+width: 50px;
+margin-top: 15vh;
+margin-left: 10vw;
+}
+.texto__tutorial{
+    margin-left: 5vw;
+    padding-bottom: 3%;
+}
+.botonHome__tutorial{
+position: absolute;
+margin-top: -30vh;
+margin-left: 26.5vw;
+width: 5vw;
+height: auto;
+}
+.botonIndice__tutorial{
+position: absolute;
+margin-top: -36vh;
+margin-left: 28vw;
+}
+.boleta__tutorial{
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -50vh;
+}
+
+
+
+/*--------------Definición--------------*/
+.definicion{
+    position: relative;
+}
+.indiceDefinicion{
+  width: 3vw;
+  height: auto;
+  position: absolute;
+  margin-top: 68vh;
+  margin-left: 2vw;
+  filter: drop-shadow(0 0 1vh rgb(204, 16, 60));
+}
+
+.contenedorContenedores__Definicion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -85vh;
+    margin-left: 45vw;
+}
+
+.contenedor__Definicion img{
+    margin-top: 2.5vh;
+    height: 50%;
+    width: 50%;
+}
+.contenido_Definicion{
+    position: absolute;
+    height: 60vh;
+    width: 35vw;
+    margin-left: 55vw;
+    margin-top: 8vh;
+    margin-right: 5vh;
+
+}
+.video__Definicion{
+margin-left: 5vw;
+    width: 25vw;
+    height: 30vh;
+}
+
+
+
+/*-----------Esfera politica-----------*/
+
+
+.contenedorEjemplos_esfera {
+    width: 10vw;
+    height: 60vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -75vh;
+    margin-left: 5vw;
+}
+
+.contenedorEjemplos_esfera img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto; 
+    height: auto;
+    object-fit: contain; 
+}
+.contenedorImg__Esfera{
+    width: 15vw;
+    height: 38vh;
+    background: linear-gradient(to bottom, #9D2727, #BB4747);
+    border-radius: 3vw 10vw 3vw 3vw;
+    position: absolute;
+    margin-top: -70vh;
+    margin-left: 42.5vw;
+    filter: drop-shadow(-0.5vw 0.5vw 0.2vw  rgb(0,0,0,30%));
+
+}
+
+.contenedorEjemplos2_esfera{
+    width: 10vw;
+    height: 60vh;
+    position: absolute;
+    display: flex;
+    gap: 4vw;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50vh;
+    margin-left: 60vw;
+}
+.contenedorEjemplos2_esfera img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto; 
+    height: auto;
+    object-fit: contain; 
+}
+.contenedor_flechita{
+    width:2.5vw ;
+    height: 9vh;
+    border-radius: 40vw;
+    background: linear-gradient(to right, #666666, #222020 );
+    position: absolute;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(-0.2vw 0.2vw 0.2vw  rgb(0,0,0,40%));
+    margin-top: -55vh;
+    margin-left: 60vw;
+}
+.contenedor_flechita2{
+    width:2.5vw ;
+    height: 9vh;
+    border-radius: 40vw;
+    background: linear-gradient(to right, #666666, #222020 );
+    position: absolute;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(-0.2vw 0.2vw 0.2vw  rgb(0,0,0,40%));
+    margin-top: -55vh;
+    margin-left: 36.5vw;
+}
+.contenedor__Normales img{
+    margin-top: 2.5vh;
+    height: 50%;
+    width: 50%;
+}
+
+.contenedorMuestra__Esfera {
+    width: 60vw;
+    height: 65vh;
+    position: absolute; 
+    background-color: #771313;
+    margin-top: -85vh;
+    margin-left: 20vw;
+    overflow: visible; 
+}
+
+.videoEsfera {
+    margin-left: 8vw;
+    margin-top: 6vh;
+    width: 45vw;
+    height: 50vh;
+    position: absolute; 
+    z-index: 9; 
+}
+.dialogo__Esfera{
+    position: absolute; 
+    display: flex;
+    text-align: center;
+    background-color: white;
+    height: 15vh;
+    width: 22vw;
+    filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+    z-index: 99; 
+    margin-top: 65vh; 
+    margin-left: 40vw;
+}
+.dialogo__Esfera img{
+position: absolute;
+height: 50px;
+width: 50px;
+}
+
+/*--------- Prevencnion ---------------*/
+
+.prevencion {
+    height: 100%;
+  }
+  .politicoPrevencion {
+    position: absolute;
+    height: 60vh;
+    margin-top: 40vh;
+    margin-left: 30vh;
+    z-index: 98;
+  }
+  
+  .maquinaBlur {
+    position: absolute;
+    height: 80vh;
+    margin-top: 20vh;
+    margin-left: 90vh;
+    z-index: 98;
+  }
+  
+  .dialogoPrevencion {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    height: 10vh;
+    width: 16vw;
+    margin-left: 70vh;
+    margin-top: 50vh;
+    padding: 1% 2% 2% 2%;
+    filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+    z-index: -1;
+  }
+  .dialogoPrevencion img {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: 10vh;
+    margin-left: 7vw;
+  }
+  
+  .politicodedo {
+    position: absolute;
+    height: 60vh;
+    margin-top: 40vh;
+    margin-left: 30vh;
+    z-index: 98;
+  }
+  
+  .maquina {
+    position: absolute;
+    height: 80vh;
+    margin-top: 20vh;
+    margin-left: 90vh;
+    z-index: 98;
+  }
+  #prevencionPantalla3 {
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 1.8vh;
+    margin-left: 1.8vh;
+    height: 96.4vh;
+    width: 174.1vh;
+    background-image: url(Imagenes/fondopeligro.png);
+  }
+  
+  .imglogo{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 2vh;
+  }
+  
+  .politicomascara{
+    position: absolute;
+    left: 15vh;
+    top: 33vh;
+    width: 50vh;
+  }
+  .dialogoPrevencion2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    position: absolute;
+    height: 10vh;
+    width: 27vw;
+    margin-left: 90vh;
+    margin-top: 50vh;
+    padding: 1% 2% 2% 2%;
+    filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+    z-index: 3;
+  }
+  .dialogoPrevencion2 img {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: 10vh;
+  }
+  
+  .senal1{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    left: 10vh;
+    top: 10vh;
+  }
+  .senal2{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    left: 150vh;
+    top: 68vh;
+    z-index: 4;
+  }
+  
+  .pan4div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5vw;
+  }
+  .parpadeoimg{
+   position: absolute;
+   height: 23vh;
+   left: 16.3vw;
+  }
+  .fondopreven{
+    height: 60vh;
+  }
+  .botonprev{
+    height: 10vh;
+  }
+  .pan4div2{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .pan4div2 h2,p{
+    margin: 0;
+  }
+  
+  .pan5div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5vw;
+  }
+  
+  .pan5div2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cuelloimg{
+    position: absolute;
+    height: 30vh;
+    left: 20vw;
+  }
+  .btnizq{
+    height: 10vh;
+    position: absolute;
+    left: 8vw;
+  
+  }
+  
+  .pan5div2 h2,p{
+    margin: 0;
+  }
+  
+  .pan6div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5vw;
+  }
+  
+  .pan6div2{
+    display: flex;
+    flex-direction: column;
+  }
+  .pan6div2 h2,p{
+    margin: 0;
+  }
+  
+  .detallesimg{
+    position: absolute;
+   height: 23vh;
+   left: 16.3vw;
+  }
+  
+  .pan7div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5vw;
+  }
+  
+  .pan7div2{
+    display: flex;
+    flex-direction: column;
+  }
+  .pan7div2 h2,p{
+    margin: 0;
+  }
+  
+  .bocaimg{
+    position: absolute;
+   height: 17vh;
+   left: 16.3vw;
+  }
+  
+  #prevencionPantalla8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+  
+  .prevencionextra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    gap: 6vw;
+  }
+  .prevencionextra img{
+    height: 12vh;
+  }
+  
+  .contenedor__Prevencion {
+    border-radius: 120px;
+    width: 10vw;
+    height: 17vh;
+    background: linear-gradient(to right, #e95353, #bb4747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(-5px 5px 6px rgb(10, 10, 10));
+  }
+  .columnaprev8{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .columnaprev8 h2{
+    margin-bottom: 1vh;
+  }
+  
+  .contenido__Prevencion{
+    width: 45vw;
+    margin-top: 5vh;
+  }
+.contenedorimg__Casos{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  margin-left: 8vw;
+  margin-top: 25vh;
+  width: 10vw;
+  height: 70vh;
+}
+
+.contenedorimg__Casos img{
+  width: 100%;
+  height: 100%;
+}
+.contenedorCaso__Casos{
+  background: radial-gradient(#675D5D,#888888,#1D1D1D);
+  border-radius: 30vw;
+  box-shadow: inset 0 0 0 0.1vw #000000;
+}
+.contenedorSeleccionado__Casos{
+  background: radial-gradient(#F43333,#ad1f1f,#771313);
+  border-radius: 30vw;
+  box-shadow: inset 0 0 0 0.1vw #000000; 
+}
+.contenedorInfo__Casos{
+  position: absolute;
+  background: linear-gradient(to bottom,#9D2727,#BB4747);
+  border-radius: 60vw 180vw 60vw 60vw;
+  margin-top: 25vh;
+  margin-left: 30vw;
+  width: 32vw;
+  height: 18vh;
+}
+.textos__Casos{
+  position: absolute;
+  padding: 2%;
+  color: white;
+  font-family: 'Spinnaker-Regular';
+  margin-top: 2vh;
+  font-size: 1.4vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  text-align: left;
+}
+.platafomas__Casos{
+  position: absolute;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1.2vw;
+  margin-top: 30vh;
+  margin-left: 65vw;
+}
+.victimas__Casos{
+  position: absolute;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1.2vw;
+  margin-top: 55vh;
+  margin-left: 35vw;
+}
+.textoVictimas__Casos{
+  position: absolute;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1.2vw;
+  margin-top: 60vh;
+  margin-left: 43vw;
+  margin-right: 40vw;
+}
+.interaccion__Casos{
+  position: absolute;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1.2vw;
+  margin-left: 70vw;
+  margin-top: 61vh;
+}
+.contenedorRedes__Casos{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  margin-top: 35vh;
+  margin-left: 65vw;
+}
+.contenedor__Caras{
+position: absolute;
+display: flex;
+flex-direction: column;
+gap: 7.6vh;
+
+margin-left: 9.4vw;
+margin-top: 25vh;
+}
+.contenedor__Caras img{
+width: 7vw;
+height: 15.5vh;
+}
+.politico__Casos{
+  position: absolute;
+   z-index: 99;
+    width: 25vw;
+     height: 60vh;
+      margin-top: 40vh;
+      margin-left: 20vw;
+}
+.textoDialogo__Casos{
+  position: absolute;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1.2vw;
+  margin-left: -0.5vw;
+}
+.dobleflecha{
+  position: absolute;
+  margin-top: 92vh;
+  margin-left: 25vw;
+  height: 4vh;
+  width: auto;
+}
+.contenedorTrivia__Casos{
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 20vw;
+  width: 60vw;
+  height: 60vh;
+  background: linear-gradient(to bottom,#9D2727,#BB4747);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contenedorTrivia__Casos img{
+  margin-top: 5vh;
+}
+.messiizqui{
+width: auto;
+height: 50vh;
+}
+.messiderecha{
+  width: auto;
+  height: 50vh;
+}
+.elonizqui{
+width: auto;
+height: 50vh;
+}
+.elonderecha{
+width: auto;
+height: 50vh;
+}
+.obamaizqui{
+  width: auto;
+  height: 50vh;
+  }
+  .obamaderecha{
+  width: auto;
+  height: 50vh;
+  }
+
+.acertaste__Casos{
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 25vw;
+  width: 50vw;
+  height: 50vh;
+  background-color: #046A38;
+}
+.perdiste__Casos{
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 25vw;
+  width: 50vw;
+  height: 50vh;
+  background-color: #771313;
+}
+.politicoAcertaste__Casos{
+  position: absolute;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  width: 20vw;
+  height: 50vh;
+}
+.acertaste__Casos h1{
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  margin-left: 17vw;
+}
+.textoAcertaste{
+  position: absolute;
+  color: white;
+  font-size: 1.6vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  text-align: center;
+  margin-top: 22vh;
+}
+.posicionAjustada{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  height: 15vh;
+  width: 22vw;
+  padding: 1%;
+  filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+  margin-top: 56vh;
+  margin-left: 48vw;
+}
+.posicionAjustada img{
+position: absolute;
+height: 50px;
+width: 50px;
+margin-top: 8vh;
+margin-left: 10vw;
+}
+.perdiste__Casos h1{
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  margin-left: 22vw;
+}
+.textoPerdiste{
+  position: absolute;
+  color: white;
+  font-size: 1.6vw;
+  margin-left: 12vw;
+  margin-right: 8vw;
+  text-align: center;
+  margin-top: 22vh;
+}
+.politicoAcertaste2__Casos{
+  position: absolute;
+  margin-top: 30vh;
+  margin-left: 9vw;
+  width: 35vw;
+  height: 50vh;
+}
+.contenedorTutorial__Casos{
+  margin-top: 92vh;
+  margin-left: 25vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5vw;
+}
+.contenedorTutorial__Casos img{
+  height: 4vh;
+  width: auto;
+}
+.iconoIndice{
+  position: absolute;
+  margin-top: 92vh;
+  margin-left: 2vw;
+  height: 5vh;
+  width: auto;
+  filter: drop-shadow(0 0 1vh rgb(204, 16, 60));
+}
+.iconoIndice__Regulaciones{
+  position: absolute;
+  margin-top: 88vh;
+  margin-left: 2vw;
+  height: 5vh;
+  width: auto;
+  filter: drop-shadow(0 0 1vh rgb(204, 16, 60));
+}
+.barraPaises__Regulaciones{
+  position: absolute; 
+  width: auto; 
+  height:8vh;
+  margin-top: 85vh;
+  margin-left: 22.5vw;
+}
+.contenedorPaises__Regulaciones{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 4.3vw;
+  width: 40vw;
+  height: 6vh;
+  /*background-color: #000000;*/
+  margin-top: 85.5vh;
+  margin-left: 32vw;
+  z-index: 99;
+}
+.posicionCentro__Regulaciones{
+  width: 8vw;
+  height: 8vh;
+  margin-top: -4vh;
+  margin-left: -0.5vw;
+  border-radius: 60vw;
+  box-shadow: 0 0 0 0.4vw rgb(160,43,43);
+  filter: drop-shadow(0px 0.8vh 0.4vw rgb(0, 0, 0, 90%));
+}
+.posicionPais1__Regulaciones,
+.posicionPais2__Regulaciones,
+.posicionPais3__Regulaciones,
+.posicionPais4__Regulaciones,
+.posicionPais5__Regulaciones{
+  border-radius: 60vw;
+  box-shadow: 0 0 0 0.3vw rgb(157,39,39);
+}
+.contenedorInfo__Regulaciones{
+  width: 14vw;
+  height: 28vh;
+  background-color: #AD3939;
+  border-radius: 1.2vw;
+}
+.contenedorContenedores__Regulaciones{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin-left: 27vw;
+  margin-top: 40vh;
+}
+.contenedorTexto__Regulaciones{
+  position: absolute;
+  width: 13vw;
+  height: 20vh;
+  background-color: white;
+  border-radius: 0 0 1.2vw 1.2vw;
+  margin-left: 0.5vw;
+  margin-top: 7vh;
+}
+.contenedorTexto__Regulaciones p{
+  position: absolute;
+  color: #000000;
+  font-family: 'Spinnaker-Regular';
+  font-size: 1vw;
+  padding: 1vw;
+}
+.contenedorInfo__Regulaciones img{
+  position: absolute;
+}
+.contenedorMapa__Regulaciones{
+  position: absolute;
+  margin-top: 25vh;
+}
+.contenedorMapa__Regulaciones img{
+  width:auto ;
+  height: 55vh;
+}
+.dialogo1__Esfera{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  height: 15vh;
+  width: 22vw;
+  padding: 1%;
+  filter: drop-shadow(-10px 10px 1vw rgb(58, 58, 58));
+  margin-top: -50vh;
+  margin-left: 65vw;
+  z-index: 99;
+  font-family: 'Spinnaker-Regular'; 
+  font-size: 1.2vw;
+}
+.tutorial__Esfera{
+position: absolute;
+margin-top: -8vh;
+margin-left: 18vw;
+display: flex;
+flex-direction: row;
+gap: 0.8vw;
+}
+.tutorial__Esfera img{
+  width: auto;
+  height: 4vh;
+}
+.tutorial__Esfera p{
+  font-size: 1.4vw;
+  font-family: 'Staatliches-Regular';
+}
+.iconoIndice__Esfera{
+  position: absolute;
+  margin-top: -8vh;
+  margin-left: 2vw;
+  height: 5vh;
+  width: auto;
+  filter: drop-shadow(0 0 1vh rgb(204, 16, 60));
+}

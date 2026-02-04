@@ -1,0 +1,3 @@
+//Esta infografía fue pensada para una muestra de la materia "Taller para las infografías interactivas" con el nombre de SINTETIKA
+//Está pensada para que sea navegable en una pantalla completa (F11) y tenga un dispositivo con el cual navegar con teclas asignadas
+//las teclas de navegación son el ENTER y las cuatro flechitas!!!

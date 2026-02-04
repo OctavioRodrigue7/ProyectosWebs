@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando entre garcas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav id="indice" class="indice oculto">
+<div id="casos_Indice" class="position1__indice borde nucleoNormal">
+    <p class="texto__indice" style="margin-top: 7.5vh; font-family: 'Staatliches-Regular';font-size: 1.8vw;text-align: center;">Casos</p>
+    <img style="position: absolute; width: 8vw; height: 12vh; margin-top: -20%; margin-left: 14%; border-radius: 120px;" src="./Imagenes/traje1.png" alt="">
+</div>
+<div id="prevencion_Indice" class="position2__indice borde nucleoNormal">
+    <p class="texto__indice" style="font-family: 'Staatliches-Regular';font-size: 1.8vw;text-align: center; margin-top: 7.5vh;">Prevención</p>
+    <img style="position: absolute; width: 8vw; height: 12vh; margin-top: -20%; margin-left: 14%; border-radius: 120px;" src="./Imagenes/traje2.png" alt="">
+</div>
+<div id="regulaciones_Indice" class="position3__indice borde nucleoNormal">
+    <p class="texto__indice" style="font-family: 'Staatliches-Regular';font-size: 1.8vw;text-align: center; margin-top: 7.5vh;">Regulaciónes </p>
+    <img style="position: absolute; width: 8vw; height: 12vh; margin-top: -20%; margin-left: 14%; border-radius: 120px;" src="./Imagenes/traje3.png" alt="">
+</div>
+<div id="esfera_Indice" class="position4__indice borde nucleoNormal">
+    <p class="texto__indice" style="font-family: 'Staatliches-Regular';font-size: 1.8vw;text-align: center; margin-top: 7.5vh;">esfera política</p>
+    <img style="position: absolute; width: 7vw; height: 10vh; margin-top: -8%; margin-left: 18%; border-radius: 120vw;" src="./Imagenes/traje4.png" alt="">
+</div>
+<div id="definicion_Indice" class="positionCentro__indice nucleoElegido">
+    <p class="texto__indice" style="font-family: 'Staatliches-Regular';font-size: 1.8vw;text-align: center; margin-top: 7.5vh;">definición</p>
+    <img style="position: absolute; width: 7vw; height: 8vh; margin-top: 1%; margin-left: 18%; border-radius: 120vw;" src="./Imagenes/traje5.png" alt="">
+</div>
+<nav class="inner__indice"></nav>
+    </nav>
+<header id="Inicio" class="Inicio">
+<img class="imgLogo__Inicio" src="./Imagenes/pvp.png" alt="">
+<p style="font-family: 'SquadaOne-Regular';" class="texto__Inicio">Partido de la veracidad popular</p>
+<img class="imgPolitico__Inicio" src="./Imagenes/politico1.png" alt="">
+<div class="triangulo__Inicio"></div>
+<h1 class="titulo__Inicio" style="font-family: 'Staatliches-Regular';">¡Estamos Navegando entre garcas!</h1>
+<h3 class="subTitulo__Inicio" style="font-family: 'Staatliches-Regular';">empieza el cambio.</h3>
+<h5 class="indicador__Inicio" style="font-family: 'SquadaOne-Regular';">Presioná confirmar</h5>
+<img class="boton__Inicio" src="./Imagenes/boton.png" alt="">
+<img class="fondoDerecha__Inicio" src="./Imagenes/image 2.png" alt="">
+<img class="fondoDerecha2__Inicio" src="./Imagenes/abadcb36-80c2-41e8-83b5-2d4d53002b5a 3.png" alt="">
+<h2 style="font-family: 'SquadaOne-Regular';" class="subTituloDerecha__Inicio">¡Hay que frenar con tantas estafas! <span style="color: #9D2727;">#BastaDeDeepFake</span></h2>
+<img class="politicoImg__Inicio" src="./Imagenes/politico2.png" alt="">
+<img class="tarimaImg__Inicio" src="./Imagenes/boy-2027772_1280 (1) 1.png" alt="">
+<img class="micImg__Inicio" src="./Imagenes/microfono taller 1.png" alt="">
+<img class="publicoImg__Inicio" src="./Imagenes/publico.png" alt="">
+</header>
+
+<div id="pantallaTutorial1" class="tutorial ocultar">
+<article class="pantalla__tutorial" id="pantallaTutorial3">
+    <h1 style="font-family: 'Staatliches-Regular';">Tutorial</h1>
+    <div class="contenedor__tutorial">
+        <h3 id="titulo__tutorial" style="font-family: 'Staatliches-Regular';">Flechas y boton confirmar</h3>
+        <h3 id="titulo2__tutorial" class="oculto" style="font-family: 'Staatliches-Regular';">Botón índice y home</h3>
+        <h3 id="titulo3__tutorial" class="oculto" style="font-family: 'Staatliches-Regular';">tarjeta ELECTRONICA</h3>
+        <ul id="indicaciones__tutorial" style="font-family: 'Spinnaker-Regular'; margin-left: 3.5vw;">
+            <li>
+                Las flechas te ayudaran a desplazarte y seleccionar 
+            </li>
+            <li>
+                El botón rojo sirve para confirmar
+            </li>
+        </ul>
+        <ul id="indicaciones2__tutorial" class="oculto" style="font-family: 'Spinnaker-Regular';margin-left: 3.5vw;">
+            <li>
+                Este botón despliega una guía para navegar entre las distintas secciones de la infografía</li>
+            </ul>
+
+    </div>
+    <img id="flechas1__tutorial" class="flecha1__tutorial" src="./Imagenes/maquina.png" alt="">
+    <img id="boton__tutorial" class="boton__tutorial" src="./Imagenes/Group 212.png" alt="">
+    <img class="botonIndice__tutorial ocultar" id="botonIndice__tutorial" src="./Imagenes/Group 213 (1).png" alt="">
+    <img class="botonHome__tutorial" id="botonHome__tutorial" src="./Imagenes/dobleflecha.png" alt="">
+    <img id="boleta__tutorial" class="boleta__tutorial oculto" src="./Imagenes/boleta.png" alt="">
+    <img class="politico__tutorial" src="./Imagenes/politico1.png" alt="">
+    <div class="dialogo__tutorial">
+        <p id="dialogo__tutorial" style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Hola soy Gargamel quien los guiará por este panfleto.</p>
+        <p id="dialogo__tutorial3" class="texto__tutorial" style="font-family: 'Spinnaker-Regular'; font-size: 0.8vw;">Presiona confirmar para seguir</p>
+        <img src="./Imagenes/boton.png" alt="">
+    </div>
+</article>
+</div>
+<!-- PANTALLA DEFINICION -->
+<section class="definicion" id="pantallaDefinicion">
+    <div class="ocultar" id="indicadores__Definicion" style="display: flex; gap: 0.8vw; position: absolute; margin-top: 78vh; margin-left: 40vh;">
+        <img style="width: 5vw ; height: 4vh;" src="./Imagenes/dobleflecha.png" alt=""><p style="font-family: 'Staatliches-Regular'; font-size: 1.2vw;">elegir</p>
+       <!-- <img style="width:auto ; height: 4vh;" src="./Imagenes/Group 212.png" alt=""><p style="font-family: 'Staatliches-Regular'; font-size: 1.2vw;">confirmar</p>-->
+    </div>
+    <h1 id="titulo__Definicion" class="ocultar" style="font-family: 'Staatliches-Regular'; font-size: 6vw; position: absolute; margin-right: 55vw; margin-left: 10%; margin-top: 10%;">
+        definiciÓn de las deepfakes</h1>
+<aside id="contenedorContenedores__Definicion" class="contenedorContenedores__Definicion ocultar">
+<div class="contenedor__Definicion seleccion"><img class="img_contenedor" src="./Imagenes/signo-de-interrogacion 2.png" alt=""></div>
+<div class="contenedor__Definicion seleccion"><img class="img_contenedor" src="./Imagenes/etiqueta 1.png" alt=""></div>
+<div class="contenedor__Definicion seleccion"><img class="img_contenedor" src="./Imagenes/aplicacion-de-ia 1.png" alt=""></div>
+<div class="contenedor__Definicion seleccion"><img class="img_contenedor" src="./Imagenes/lupa (1) 1.png" alt=""></div>
+</aside>
+
+<aside id="contenido__Definicion" class="contenido_Definicion oculto">
+    <div><h2 style="font-family: 'Staatliches-Regular'; font-size: 2vw; text-align: center;">Primero, ¿Qué son las deepfakes?</h2>
+    <ul style="font-family: 'Spinnaker-Regular'; font-size: 1.4vw; padding-left: 18%; padding-right: 10%;"><li>
+        Inteligencia artificial que se utiliza para crear o alterar contenido audiovisual. </li></ul>
+        <video class="video__Definicion" src="./videos/¿Qué es Deepfake_.mp4" controls></video>
+    </div>
+</aside>
+
+<aside id="contenido__Definicion2" class="contenido_Definicion oculto">
+    <div><H2 style="font-family: 'Staatliches-Regular'; font-size: 2vw; text-align: center;">¿De donde proviene su nombre?</H2>
+    <ul style="font-family: 'Spinnaker-Regular';  font-size: 1.8vw; text-align: center;padding-left: 18%; padding-right: 10%; margin-top: 20%;">
+        <li>El término 'Deepfakes' combina <span style="color: red; font-family: 'Staatliches-Regular';">'FAKE'</span> y <span style="color: red; font-family: 'Staatliches-Regular';">
+            'DEEP'</span> </li></ul>
+<img style="position: absolute; margin-left: 45%; margin-top: -4%;" src="./Imagenes/Arrow 3.png" alt="">
+<img style="position: absolute; margin-left: 67.5%; margin-top: -4%; transform: rotate(-45deg);" src="./Imagenes/Arrow 3.png" alt="">
+<p style="font-family: 'Spinnaker-Regular';  font-size: 1.4vw; position: absolute; margin-top: 6%; margin-left: 25%; text-align: center;">Fake (Falso)</p>
+<p style="font-family: 'Spinnaker-Regular';  font-size: 1.4vw; position: absolute; margin-top: 10%; margin-left: 50%; text-align: center;">Deep Learning (Aprendizaje profundo)</p>
+</div>
+</aside>
+
+<aside id="contenido__Definicion3" class="contenido_Definicion oculto"> 
+    <div>
+        <h2  style="font-family: 'Staatliches-Regular'; font-size: 2vw; text-align: center;">¿Cuáles son sus tecnologías?</h2>
+        <ul style="font-family: 'Spinnaker-Regular'; font-size: 1.4vw; padding-left: 20%; padding-right: 9.5%;">
+            <li>Los Deepfakes utilizan los algoritmos RGAs llamados (
+                <span style="font-family: 'Staatliches-Regular'; color: red; font-size: 1.5vw">Generador</span> y 
+                <span style="font-family: 'Staatliches-Regular'; color: red; font-size: 1.5vw">discriminador</span>)</li></ul>
+    <div style="display: flex; justify-content: center; gap: 5vw; margin-top: 10vh;">
+        <span style="font-family: 'Staatliches-Regular'; color: red; font-size: 1.5vw">Generador</span>
+        <span style="font-family: 'Staatliches-Regular'; color: red; font-size: 1.5vw">discriminador</span>
+    </div>
+    <img style="margin-left: 10vw; width: 2vw; height: 5vh;" src="./Imagenes/Arrow 3.png" alt="">
+    <img style="margin-left: 10vw; width: 2vw; height: 5vh; transform: rotate(-90deg);" src="./Imagenes/Arrow 3.png" alt="">
+    <div style="display: flex; gap: 5vw;">
+        <p style="font-size: 1vw; font-family: 'Spinnaker-Regular'; ">Crea imágenes o vídeos falsos a partir de una base de datos de referentes visuales.</p>
+        <p style="font-size: 1vw; font-family: 'Spinnaker-Regular'; ">Intenta diferenciar las imágenes generadas por el generador de las reales. </p>
+    </div>
+    </div>
+</aside>
+
+<aside id="contenido__Definicion4" class="contenido_Definicion oculto"> 
+    <div>
+        <h2 style="font-family: 'Staatliches-Regular'; font-size: 2vw; text-align: center;">y por ultimo, ¿Dónde se originaron?</h2>
+        <ul style="font-family: 'Spinnaker-Regular'; font-size: 1.4vw; padding-left: 20%; padding-right: 12%;">
+            <li>Hay teorías sobre su origen, pero el primer programa fue Video Rewrite en</li></ul> 
+            <span style="position: absolute; margin-top: -7vh; margin-left: 15vw; font-family: 'Spinnaker-Regular'; color: #E45252; font-size: 2.2vw">1997</span>
+            <img style="width: 70%; height: 70%; margin-left: 5vw;" src="./Imagenes/video.png" alt="">
+    </div>
+</aside>
+<img id="indiceDefinicion" class="indiceDefinicion ocultar" src="./Imagenes/Group 213 (1).png" alt=""> 
+    </section>
+
+<!--Pantalla regulaciones-->
+
+<section id="pantallaRegulaciones" class="contenido_regulacion oculto">
+    <h1 style="font-family: 'Staatliches-Regular'; font-size: 4vw; position: absolute; margin-left: 31vw; margin-right: 30vw; text-align: center;">Regulación de las Deepfakes</h1>
+    <img style="position: absolute; margin-left: 2vw;   height: 8vh; width: auto; margin-top: 4vh;" src="./Imagenes/pvp.png" alt="">
+    <div class="contenedorContenedores__Regulaciones">
+        <div class="contenedorInfo__Regulaciones">
+            <img style="margin-left: 1vw; width: 3vw; height: auto; " src="./Imagenes/signo-de-interrogacion 2.png" alt="">
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-left: 5vw; color: white; position: absolute; text-align: center; margin-top: 1vw;">¿Tiene ley?</p>
+            <div class="contenedorTexto__Regulaciones">
+                <p id="texto1__Regulacioneseeuu">EEUU tiene al menos 8 estados que regulan el uso de la deepfake</p>
+                <p class="ocultar" id="texto1__Regulacionesindia">India todavía no cuenta con leyes que regularicen el uso y difusión de las Deepfake.</p>
+                <p class="ocultar" id="texto1__Regulacionesuk">En el Reino Unido, aún no hay una norma que regule las deepfakes</p>
+                <p class="ocultar" id="texto1__Regulacionesarg">En Argentina actualmente no hay una ley que regule la creación de deepfakes.</p>
+                <p class="ocultar" id="texto1__Regulacioneschina">La Ley de Seguridad en Línea de 2020 obliga a los servicios a evitar la publicación de información falsa.</p>
+                <p class="ocultar" id="texto1__Regulacionesaus">En Australia solo el estado de Victoria cuenta con una ley</p>
+            </div>
+        </div>
+        <div class="contenedorInfo__Regulaciones">
+            <img style="margin-left: 1vw; width: 3vw; height: auto; " src="./Imagenes/mazoregu.png" alt="">
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-left: 5vw; color: white; position: absolute; text-align: left; margin-right: 15vw; margin-top: 1vw;">¿Qué tipo de ley tiene?</p>
+            <div class="contenedorTexto__Regulaciones">
+                <p id="texto2__Regulacioneseeuu">Su ley es de tipo Estatal</p>
+                <p class="ocultar" id="texto2__Regulacionesindia">Se esta regulando</p>
+                <p class="ocultar" id="texto2__Regulacionesuk">Se esta regulando</p>
+                <p class="ocultar" id="texto2__Regulacionesarg">Aún no cuenta con una ley</p>
+                <p class="ocultar" id="texto2__Regulacioneschina">Su ley es de tipo Nacional</p>
+                <p class="ocultar" id="texto2__Regulacionesaus">Su ley es de tipo Estatal</p>
+            </div>
+        </div>
+        <div class="contenedorInfo__Regulaciones">
+            <img style="margin-left: 1vw; width: 2.6vw; height: auto; margin-top: 0.5vh;" src="./Imagenes/suggestion (1) 1.png" alt="">
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-left: 5vw; color: white; position: absolute; text-align: center; margin-top: 1vw;">¿Sabias que?</p>
+            <div class="contenedorTexto__Regulaciones">
+                <p id="texto3__Regulacioneseeuu">California podría convertirse en el primer estado de EEUU en implementar rigurosas medidas de seguridad</p>
+                <p class="ocultar" id="texto3__Regulacionesindia">India prepara normas para sancionar deepfakes y plataformas que los alojan.</p>
+                <p class="ocultar" id="texto3__Regulacionesuk">Reino Unido planea criminalizar la creación de deepfakes no consensuados.</p>
+                <p class="ocultar" id="texto3__Regulacionesarg">Se presentó en el Congreso el Proyecto de Ley 3955-D-2024 para crear una nueva figura legal en el Código Penal.</p>
+                <p class="ocultar" id="texto3__Regulacioneschina">China, es el primer país del mundo en regular los 'deepfakes'</p>
+                <p class="ocultar" id="texto3__Regulacionesaus">En Australia proponen hasta seis años de prisión por compartir deepfakes sexuales sin consentimiento</p>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorPaises__Regulaciones">
+        <img id="banderaIndia" class="posicionPais1__Regulaciones" src="./Imagenes/india.png" alt="">
+        <img id="banderaUk" class="posicionPais2__Regulaciones" src="./Imagenes/uk.png" alt="">
+        <img id="banderaUsa" class="posicionCentro__Regulaciones" src="./Imagenes/usa.png" alt="">
+        <img id="banderaArg" class="posicionPais3__Regulaciones" src="./Imagenes/arg.png" alt="">
+        <img id="banderaChina" class="posicionPais4__Regulaciones" src="./Imagenes/china.png" alt="">
+        <img id="banderaAus" class="posicionPais5__Regulaciones ocultar" src="./Imagenes/Aus.png" alt="">
+    </div>
+    <div class="sombra"></div>
+
+    <div class="contenedorMapa__Regulaciones">
+        <img id="mapausa" style="position: absolute;" src="./Imagenes/mapausa.png" alt="">
+        <img id="mapaindia" class="ocultar" style="position: absolute;" src="./Imagenes/mapaindia.png" alt="">
+        <img id="mapachina" class="ocultar" style="position: absolute;" src="./Imagenes/mapachina.png" alt="">
+        <img id="mapauk" class="ocultar" style="position: absolute;" src="./Imagenes/mapauk.png" alt="">
+        <img id="mapaarg" class="ocultar" style="position: absolute;" src="./Imagenes/argmapa.png" alt="">
+        <img id="mapaaus" class="ocultar" style="position: absolute;" src="./Imagenes/ausmapa.png" alt="">
+    </div>
+    <img class="barraPaises__Regulaciones"src="./Imagenes/barraroja.png" alt="">
+
+
+
+    <img style="height: 4vh; width: auto; margin-left: 84vw; margin-top: 88vh; position: absolute;" src="./Imagenes/dobleflecha.png" alt="">
+    <p style="font-family: 'Staatliches-Regular'; font-size: 1.5vw; margin-left: 90vw; position: absolute; margin-top: 89vh;">Elegir Pais</p>
+    <img class="iconoIndice__Regulaciones" src="./Imagenes/Group 213 (1).png" alt=""> 
+    <p style="font-family: 'Staatliches-Regular'; margin-top: 89vh; margin-left: 6vw; font-size: 1.5vw; position: absolute;">indice</p>
+</section>
+
+
+
+<!--Pantalla Esfera Politica-->
+
+    <section id="pantallaEsfera" class="oculto">
+        <h1 id="titulo__Esfera" class="textoCentro" style="font-family: 'Staatliches-Regular'; font-size: 4vw; position: absolute; margin-top: -90vh; margin-left: 30vw; margin-right: 30vw;">
+            Deepfakes en la esfera política</h1>
+            <img style="position: absolute; margin-top: -65vh; margin-left: 25vw; z-index: 99;" id="politico__Esfera" src="./Imagenes/politico3.png" alt="">
+            <div id="primerDialogo__Esfera" class="dialogo1__Esfera">Dentro de la esfera política, las deepfake tienen múltiples usos, veamos algunos ejemplos. 
+                <img style="margin-left: 10vw; margin-top: 10vh; position: absolute; width: 2.5vw; height: 4vh;" src="./Imagenes/boton.png" alt="">
+            </div>
+            <div id="segundoDialogo__Esfera" class="dialogo1__Esfera ocultar">Veamos una deepfake de Biden diciendo que Milei les iba a regalar la patagonia sin nada a cambio 
+                <img style="margin-left: 10vw; margin-top: 10vh; position: absolute; width: 2.5vw; height: 4vh;" src="./Imagenes/boton.png" alt="">
+            </div>
+            <div id="tercerDialogo__Esfera" class="dialogo1__Esfera ocultar">En este ejemplo se usó generación de imagenes para la campaña presidencial 2023 en Argentina. 
+                <img style="margin-left: 10vw; margin-top: 10vh; position: absolute; width: 2.5vw; height: 4vh;" src="./Imagenes/boton.png" alt="">
+            </div>
+            <div id="cuartaDialogo__Esfera" class="dialogo1__Esfera ocultar">Por ultimo se uso una deepfake para crear personas de “Izquierda” apoyando a Netanyahu ante masivas protestas. 
+                <img style="margin-left: 10vw; margin-top: 10vh; position: absolute; width: 2.5vw; height: 4vh;" src="./Imagenes/boton.png" alt="">
+            </div>
+        <aside id="introduccion__Esfera">
+
+        <div style="position: absolute; margin-top: -60vh; margin-left: 40vw;">
+            <img class="ocultar" id="politico2__Esfera" style="position: absolute;" src="./Imagenes/taller pj enojado 1.png" alt="">
+            <img class="ocultar" id="politico3__Esfera" style="position: absolute; margin-left: 9vw; width: 25vw;" src="./Imagenes/politico1.png" alt="">
+            <div style="position: absolute; margin-top: 0vh; margin-left: 35vw; z-index: 99; margin-top: 10vh;" class="dialogo__tutorial">
+                <p id="textoDialogo__Esfera" style="font-family: 'Spinnaker-Regular'; font-size: 1.2vw; margin-top: -1vh;">
+                    Dentro de la esfera política, las deepfake tienen múltiples usos, a continuación veremos algunos ejemplos.</p>
+                    <p id="textoDialogo1__Esfera" class="ocultar" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -1vh;">
+                        En el primer ejemplo se utilizo ia para impactar negativamente sobre una figura politica</p>
+                    <p id="textoDialogo2__Esfera" class="ocultar" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -1vh;">
+                        En el segundo ejemplo se utilizo ia para influir positivamente en una campaña politica</p>
+                    <p id="textoDialogo3__Esfera" class="ocultar" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -1vh;">
+                        En el ultimo ejemplo se utilizo ia para conseguir apaciguar la ola de manifestaciones de un sector de Israel</p>
+                    <p id="textoDialogo4__Esfera" class="ocultar" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -1vh;">
+                        Ahora veamos mas a profundidad estos casos mencionados.</p>
+                    <img style="position: absolute; margin-top: 5vw;" src="./Imagenes/boton.png" alt="">
+                </div>
+        </div>
+    <div style="position: absolute; margin-top: -70vh; margin-left: 15vw; width: 30vw; height: 50vh;">
+    <ul style="font-family: 'Spinnaker-Regular'; font-size: 1.2vw;">
+        <li id="texto1__Esfera" class="blur">Deepfake de Biden diciendo que Milei les iba a regalar la patagonia sin nada a cambio</li>
+        <li id="texto2__Esfera" class="blur" style="margin-top: 16vh;">Se usó generación de imagenes para la campaña presidencial 2023 en Argentina.</li>
+        <li id="texto3__Esfera" class="blur" style="margin-top: 17vh;">Se uso una deepfake para crear personas de “Izquierda” apoyando a Netanyahu ante masivas protestas</li>
+    </ul>
+</div>
+        <div class="contenedorEjemplos_esfera">
+            <img id="img1__Esfera" class="blur" src="./Imagenes/Group 157.png" alt="">
+            <img id="img2__Esfera" class="blur" src="./Imagenes/Group 158.png" alt="">
+            <img id="img3__Esfera" class="blur" src="./Imagenes/Group 159.png" alt="">
+        </div>
+        </aside>
+<aside id="fondoCasos__Esfera">
+    <div class="tutorial__Esfera"><p>anterior</p><img src="./Imagenes/dobleflecha.png" alt=""><P>SIGUIENTE</P></div>
+    <img class="iconoIndice__Esfera" src="./Imagenes/Group 213 (1).png" alt=""> 
+    <div id="contenedorImg__Esfera" class="contenedorImg__Esfera oculto">
+        <img id="imgContenedor1__Esfera" style="width: 18vw; margin-top: 3.8vh; margin-left: -2vw; position: absolute;" src="./Imagenes/Group 258.png" alt="">
+        <img class="ocultar" id="imgContenedor2__Esfera" style="width: 16.5vw; margin-top: 11vh; position: absolute;" src="./Imagenes/Group 259.png" alt="">
+        <img class="ocultar" id="imgContenedor3__Esfera" style="width: 15vw; margin-top: 7.5vh; margin-left: 0vw; position: absolute;" src="./Imagenes/Group 260.png" alt="">
+    </div>    
+    <div id="flecha__Esfera" class="contenedor_flechita ocultar"> <img style="margin-left: 0.7vw;" src="./Imagenes/Polygon 5.png" alt=""></div>
+    <div id="flecha2__Esfera" class="contenedor_flechita2 ocultar"> <img style="rotate: 180deg; margin-left: 0.4vw;" src="./Imagenes/Polygon 5.png" alt=""></div>
+    <div id="rectangulo__Esfera" class="ocultar" style="position: absolute; margin-top: -35vh; margin-left: 40vw;"><img style=" width: 80%; height: 80%;" src="./Imagenes/Rectangle 54.png" alt="">
+    </div>
+<article class="ocultar" id="informacion__Esfera" style="position: absolute; width: 100vw; height: 60vh; margin-top: -65vh;">
+<div id="contenedorIconos__Esfera" style="display: flex; gap: 8vh; flex-direction: column; position: absolute; margin-left: 5vw;">
+    <p style="font-family: 'Spinnaker-Regular';  font-size: 1.2vw; position: absolute; margin-top: -4vh; text-align: center; margin-left: 1vw;">Fecha</p>
+    <div class="contenedor__Normales"><img src="./Imagenes/calendario 4.png" alt=""></div>
+    <p id="tituloCasos__Esfera" style="font-family: 'Spinnaker-Regular';  font-size: 1.2vw; position: absolute; margin-top: 14vh; text-align: center; margin-left: 1vw;">Caso</p>
+    <div class="contenedor__Normales"><img src="./Imagenes/caso 3.png" alt=""></div>
+    <p id="textoDeteccion__Esfera" style="font-family: 'Spinnaker-Regular';  font-size: 1.2vw; position: absolute; margin-top: 30vh; text-align: center;">Detección</p>
+    <div id="Detectar__Esfera" class="contenedor__Normales"><img src="./Imagenes/detectar 5.png" alt=""></div>
+</div>
+<div style="display: flex; gap: 12vh; flex-direction: column; position: absolute; margin-left: 88vw;">
+    <p style="font-family: 'Spinnaker-Regular';  font-size: 1.2vw; position: absolute; margin-top: -5vh; text-align: center; margin-left: 1vw;">Tipo</p>
+    <div class="contenedor__Normales"><img src="./Imagenes/computadora 4.png" alt=""></div>
+    <p style="font-family: 'Spinnaker-Regular';  font-size: 1.2vw; position: absolute; margin-top: 18vh; text-align: center;">Impacto</p>
+    <div class="contenedor__Normales"><img src="./Imagenes/impacto 5.png" alt=""></div>
+</div>
+
+<!--CASO1-->
+<div id="textosCaso__Esfera" style="position: absolute; display: flex; gap: 13vh; flex-direction: column; margin-left: 12vw; margin-right: 70vw; margin-top: 2vh;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Se viralizó el 15 de Abril 2024</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Audio de joe Biden con Conan O’Brien sobre Milei.</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Se utilizó una IA que analiza si hubo clonación de voz en el audio</p>
+</div>
+
+<div id="textos2Caso__Esfera" style="position: absolute; display: flex; gap: 13vh; flex-direction: column; margin-left: 75vw; margin-top: 1vh; margin-right: 12vw;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Deep Fake de audio muy realista.</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Mucha gente se creyó que el audio era real. <br>
+        El impacto fue <span style="color: #9D2727;">MEDIO</span> se detecto rapidamente.</p>
+</div>
+
+<!--CASO2-->
+
+
+<div id="textosCaso2__Esfera" class="ocultar"  style="position: absolute; display: flex; gap: 10vh; flex-direction: column; margin-left: 12vw; margin-right: 70vw; margin-top: 2vh;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Durante el periodo electoral 2023</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw; position: absolute; margin-top: 21vh;">Durante la campaña 2023 Sergio Massa utilizo IA para sus afiches.</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw; position: absolute; margin-top: 26vh;">Javier Milei respondia con la misma IA en redes sociales.</p>
+</div>
+
+<div id="textos2Caso2__Esfera" class="ocultar" style="position: absolute; display: flex; gap: 16vh; flex-direction: column; margin-left: 75vw; margin-top: 1vh; margin-right: 12vw;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Generación de imagenes</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">El impacto fue <span style="color: #9D2727;">ALTO</span>. Algunas imagenes influyeron positivamente </p>
+</div>
+
+<!--CASO3-->
+
+<div id="textosCaso3__Esfera" class="ocultar" style="position: absolute; display: flex; gap: 10vh; flex-direction: column; margin-left: 12vw; margin-right: 70vw; margin-top: 2vh;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">12 de agosto de 2020</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Una cuenta de Facebook difundió contenido de “personas” a favor del presidente de Israel <br>
+        Estas “personas” no eran reales.
+    </p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">No es clara, se realizaron investigaciones policiales. <br>
+        Algunas cuentas eran manejadas desde afuera del pais
+    </p>
+</div>
+
+<div id="textos2Caso3__Esfera"  class="ocultar" style="position: absolute; display: flex; gap: 12vh; flex-direction: column; margin-left: 75vw; margin-top: 1vh; margin-right: 12.5vw;">
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">DeepFake llamada “síntesis de imágenes humanas”</p>
+    <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">El impacto fue <span style="color: #9D2727;">MUY ALTO</span>. Fue parte de una campaña de propaganda importante</p>
+</div>
+
+
+
+
+<div class="contenedorEjemplos2_esfera">
+    <img id="img1Pantallados__Esfera" src="./Imagenes/Group 157.png" alt="">
+    <img id="img2Pantallados__Esfera" class="blur" src="./Imagenes/Group 158.png" alt="">
+    <img id="img3Pantallados__Esfera" class="blur" src="./Imagenes/Group 159.png" alt="">
+</div>
+<div style="position:absolute; display: flex; gap: 8vw; margin-top: -25vh; margin-left: 74vw;">
+<img id="signo1__Esfera" src="./Imagenes/signo-de-interrogacion (1) 1.png" alt="">
+<img id="signo2__Esfera" src="./Imagenes/signo-de-interrogacion (1) 1.png" alt="">
+</div>
+<div style="position: absolute; margin-top: 48vh; margin-right: 1050vw; height: 15%;" class="dialogo__tutorial">
+    <p id="textoDialogo__Esfera0" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -1vh;">Presiona el botón</p>
+    <img id="botonDialogo__Esfera" style="position: absolute; margin-top: -5vh;" src="./Imagenes/boton.png" alt="">  
+    <p id="textoDialogo__Esfera5" style="position: absolute; font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: 5vh;">para oir una parte del audio falso.</p>
+    <p id="textoDialogo__Esfera6" class="ocultar" style="position: absolute;font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -3vh;">
+        Presiona el botón para ver alguna de las imágenes usadas en estas campañas políticas.</p>
+    <p id="textoDialogo__Esfera7" class="ocultar" style="position: absolute;font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: -3vh;">
+        Presiona el botón para ver el contenido difundido.</p>
+</div>
+</article>
+</aside>
+<div id="primerMuestra__Esfera" class="contenedorMuestra__Esfera ocultar">
+    <video class="videoEsfera" src="./videos/miVideo.mp4" controls></video>
+    <img style="position: absolute; margin-left: 65vw; margin-top: 45vh; z-index: 99; width: 15vw ; height: 40vh ;" src="./Imagenes/politico1.png" alt="">
+    <div class="dialogo__Esfera">
+        <p style="position: absolute;font-family: 'Spinnaker-Regular'; font-size: 1vw; margin-top: 3vh;">El contenido se viralizó en X con más de 6 mil reposteos- y TikTok.</p> 
+        <img style="position: absolute; margin-top: 8vh; margin-left: 10vw;" src="./Imagenes/boton.png" alt="">
+    </div>
+</div>
+<div id="segundaMuestra__Esfera" class="contenedorMuestra__Esfera ocultar">
+    <img style="position: absolute; margin-left: 65vw; margin-top: 45vh; z-index: 99; width: 15vw ; height: 40vh ;" src="./Imagenes/politico1.png" alt="">
+    <img style="position: absolute; margin-left: 5vw; margin-top: 6vh;" src="./Imagenes/image 75.png" alt="">
+    <img style="position: absolute; margin-left: 33vw; margin-top: 6vh;" src="./Imagenes/image 76.png" alt="">
+    <div class="dialogo__Esfera">
+        <p style="position: absolute;font-family: 'Spinnaker-Regular'; font-size: 0.9vw; margin-top: 3vh;"
+        >Ambas imágenes fueron creadas con IA, y se  utilizaron en la campaña política de cada candidato.</p> 
+        <img style="position: absolute; margin-top: 8vh; margin-left: 10vw;" src="./Imagenes/boton.png" alt="">
+    </div>
+</div>
+<div id="terceraMuestra__Esfera" class="contenedorMuestra__Esfera ocultar">
+    <img style="position: absolute; margin-left: 65vw; margin-top: 45vh; z-index: 99; width: 15vw ; height: 40vh ;" src="./Imagenes/politico1.png" alt="">
+    <img style="position: absolute; margin-top: 8vh; margin-left: 10vw;" src="./Imagenes/image 79.png" alt="">
+    <div class="dialogo__Esfera">
+        <p style="position: absolute;font-family: 'Spinnaker-Regular'; font-size: 0.9vw; margin-top: 3vh;">
+            Esta imagen muestra cómo usaron perfiles falsos para apoyar al presidente de Israel, empleando rostros de personas que no existían.</p> 
+        <img style="position: absolute; margin-top: 8vh; margin-left: 10vw;" src="./Imagenes/boton.png" alt="">
+    </div>
+</div>
+</section>
+
+
+
+
+
+ <!-- PANTALLA CASOS -->
+ <section id="pantallaCasos" class="oculto">
+<div id="intro__Casos">
+    <img class="politico__Casos" src="./Imagenes/politico1.png" alt="">
+    <div style="margin-top: 50vh; margin-right: 10vw;" class="dialogo__tutorial">
+        <p class="textoDialogo__Casos">Las estafas con deepfake están en auge. Criminales las usan para suplantar identidades, ¡Cuidado con lo que ves!</p>
+        <img src="./Imagenes/boton.png" alt="">
+    </div>
+</div>
+<aside id="aside__Casos" class="blur">
+    <h1 style="font-family: 'Staatliches-Regular'; font-size: 4vw; position: absolute; margin-left: 8vw; margin-top: 6vh;">Casos de estafas</h1>
+    <div class="contenedorimg__Casos">
+        <div id="casoMessi" class="casos contenedorCaso__Casos"><img src="./Imagenes/caramessi.png" alt=""></div>
+        <div id="casoElon" class="casos contenedorCaso__Casos"><img src="./Imagenes/caraelon.png" alt=""></div>
+        <div id="casoObama" class="casos contenedorCaso__Casos"><img src="./Imagenes/caraobama.png" alt=""></div>
+    </div>
+    <div class="contenedor__Caras">
+        <img id="caraMessi" src="./Imagenes/messi.png" alt="">
+        <img id="caraElon" src="./Imagenes/elon.png" alt="">
+        <img id="caraObama" src="./Imagenes/obama.png" alt="">
+    </div>
+    <div class="contenedorInfo__Casos">
+        <p id="textoMessi" class="textos__Casos">Messi es víctima de suplantación de identidad: ofrecen con su cara una app para ganar dinero</p>
+        <p id="textoElon" class="textos__Casos ocultar">Se hacen pasar por el conocido multimillonario Elon Musk están recaudando millones de dólares mediante estafas por internet</p>
+        <p id="textoObama" class="textos__Casos ocultar">Jordan Peele transfirió sus propios movimientos faciales a los rasgos faciales de Obama utilizando tecnología deepfake.</p>
+    </div>
+    <p class="platafomas__Casos">Plataforma</p>
+    <div class="contenedorRedes__Casos">
+        <img class="oculto" id="redSocialInsta" src="./Imagenes/instagram_color.png" alt="">
+        <img class="oculto" id="redSocialInstaGris" src="./Imagenes/instagram_gris.png" alt="">
+        <img class="oculto" id="redSocialYou" src="./Imagenes/youtube_color.png" alt="">
+        <img class="oculto" id="redSocialYouGris" src="./Imagenes/youtube_gris.png" alt="">
+        <img class="oculto" id="zoom" src="./Imagenes/zoom_bn.png" alt="">
+        <img class="oculto" id="redSocialFace" src="./Imagenes/facebook_color.png" alt="">
+        <img class="oculto" id="redSocialFaceGris" src="./Imagenes/facebook_gris.png" alt="">
+    </div>
+    <p class="victimas__Casos">Victimas</p>
+    <div id="iconoMessi" style="margin-top: 60vh; margin-left: 35vw; position: absolute;" class="contenedor__Normales"><img src="./Imagenes/videojuegos 1.png" alt=""></div>
+    <div id="iconoElon" style="margin-top: 60vh; margin-left: 35vw; position: absolute;" class="contenedor__Normales ocultar"><img src="./Imagenes/redes-sociales.png" alt=""></div>
+    <div id="iconoObama" style="margin-top: 60vh; margin-left: 35vw; position: absolute;" class="contenedor__Normales ocultar"><img src="./Imagenes/moneda.png" alt=""></div>
+    <p id="victimasMessi" class="textoVictimas__Casos">Usuarios de la app de juegos llamada Wildcat Dive</p>
+    <p id="victimasElon" class="textoVictimas__Casos ocultar">Usuarios de Redes sociales</p>
+    <p id="victimasObama" class="textoVictimas__Casos ocultar">Usuarios de criptomonedas</p>
+    <div>
+        <img style="margin-left: 65vw; margin-top: 60vh; position: absolute; width: 5%; height: 10%;" src="./Imagenes/boton.png" alt=""><p class="interaccion__Casos">¡Descubre el Garca!</p>
+    </div>
+    <img class="dobleflecha" src="./Imagenes/dobleflecha.png" alt="">
+    <p style="font-family: 'Staatliches-Regular'; margin-top: 92.5vh; margin-left: 31vw; font-size: 1.5vw; position: absolute;">Elegir caso</p>
+    <img class="iconoIndice" src="./Imagenes/Group 213 (1).png" alt=""> 
+    <p style="font-family: 'Staatliches-Regular'; margin-top: 92.5vh; margin-left: 6vw; font-size: 1.5vw; position: absolute;">indice</p>
+</aside>
+<aside>
+<h1 class="ocultar" id="tituloTrivia" style="font-family: 'Staatliches-Regular'; font-size: 4vw; position: absolute; margin-left: 27vw; text-align: center;">¿Puedes detectar el DEEPFAKE?</h1>
+<div id="triviaMessi" class="contenedorTrivia__Casos ocultar"><img class="messiizqui bordeTrivia" src="./Imagenes/messiizqui.png" alt=""><img class="messiderecha bordeTrivia" src="./Imagenes/messiderecha.png" alt=""></div>
+<div id="triviaElon" class="contenedorTrivia__Casos ocultar"><img class="elonizqui bordeTrivia" src="./Imagenes/casoealonderecha.png" alt=""><img class="elonderecha bordeTrivia" src="./Imagenes/casotriviaealon.png" alt=""></div>
+<div id="triviaObama" class="contenedorTrivia__Casos ocultar"><img class="obamaizqui bordeTrivia" src="./Imagenes/obamaderc.png" alt=""><img class="obamaderecha bordeTrivia" src="./Imagenes/obamaizq.png" alt=""></div>
+
+<div id="tutorialTrivia" class="contenedorTutorial__Casos ocultar">
+    <img src="./Imagenes/dobleflecha.png" alt="">
+    <p style="font-family: 'Staatliches-Regular'; font-size: 1.5vw;">Elegir</p>
+    <img src="./Imagenes/Group 212.png" alt="">
+    <p style="font-family: 'Staatliches-Regular'; font-size: 1.5vw;">Confirmar</p>
+</div>
+
+<div id="acertaste" class="acertaste__Casos ocultar">
+    <h1 style="font-family: 'Staatliches-Regular';">¡Acertaste!</h1>
+    <p class="textoAcertaste" style="font-family: 'Spinnaker-Regular';">¡Bien hecho! Identificaste correctamente el deepfake.</p>
+    <img class="politicoAcertaste__Casos" src="./Imagenes/politico1.png" alt="">
+    <div class="posicionAjustada"><p style="font-family: 'Spinnaker-Regular';">La detección de deepfakes es clave en la era digital.</p><img src="./Imagenes/boton.png" alt=""></div>
+</div>
+<div id="perdiste" class="perdiste__Casos ocultar">
+    <h1 style="font-family: 'Staatliches-Regular';">Casi..</h1>
+    <p class="textoPerdiste" style="font-family: 'Spinnaker-Regular';">Pero esta vez el deepfake te engañó</p>
+    <img class="politicoAcertaste2__Casos" src="./Imagenes/taller pj enojado 1.png" alt="">
+    <div class="posicionAjustada"><p style="font-family: 'Spinnaker-Regular';">La detección de deepfakes es clave en la era digital.</p><img src="./Imagenes/boton.png" alt=""></div>
+</div>
+</aside>
+</section>
+
+
+
+
+
+
+
+
+<!------------------------Pantalla Prevencion-------------------------------->
+<section style="position: absolute; top: 0;" class="prevencion oculto" id="pantallaPrevencion">
+    <div id="prevencionPantalla1" style="position: relative; height: 94vh; width: 133vh; padding: 3vh 3vh;">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES</h1>
+        <img class="politicoPrevencion" src="Imagenes/politico1.png" alt="personaje instruccion">
+        <img class="maquinaBlur" src="Imagenes/maquinaBlur.png" alt="maquina blur">
+        <div class="dialogoPrevencion">
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Si deseás prevenir cualquier tipo de estafa votá por mí.</p>
+            <img src="Imagenes/boton.png" alt="botonpara continuar">
+        </div>
+    </div>
+    <div  id="prevencionPantalla2" class="oculto" style="position: relative; height: 94vh; width: 133vh; padding: 3vh 3vh;">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES</h1>
+        <img  class="politicodedo" src="Imagenes/politicodedo.png" alt="">
+        <img class="maquina" src="Imagenes/maquina.png" alt="">
+        <div class="dialogoPrevencion">
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">Apoyá la boleta en la ranura para brindarme tu apoyo</p>
+            <img src="Imagenes/boton.png" alt="botonpara continuar">
+        </div>
+    </div>
+    <div id="prevencionPantalla3" class="oculto" >
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; margin: 0; ">HAS SIDO ESTAFADO</h1>
+        <h2 style="font-family: 'Staatliches-Regular'; font-size: 2vw; text-align: center; margin: 0;">Gargamel era un político creado con Deepfake.</h2>
+        <img class="imglogo" src="Imagenes/logopolitica.png" alt="">
+            <img class="politicomascara" src="Imagenes/politicomascara.png" alt="">
+            <img class="senal1" src="Imagenes/peligrosenal.png" alt="">
+            <img class="senal2" src="Imagenes/peligrosenal.png" alt="">
+            <div class="dialogoPrevencion2">
+                <p style="font-family: 'Spinnaker-Regular'; font-size: 1vw;">¡Gracias por apoyar la boleta, <br>nos diste tus datos!</p>
+                <img src="Imagenes/boton.png" alt="botonpara continuar">
+            </div>
+    </div>
+    <div id="prevencionPantalla4" style="position: relative; height: 94vh; width: 97vw; padding: 3vh 3vh;" class="oculto">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES</h1>
+        <div class="pan4div1">
+            <img class="fondopreven" src="Imagenes/fondopreven.png" alt="">
+            <img class="botonprev" src="Imagenes/botonder.png" alt="">
+            <img class="parpadeoimg" src="Imagenes/parpadeoimg.png" alt="">
+            <div class="pan4div2">
+            <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: start;">PARPADEO</h2>
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 2vw;">Fijarse en cuántas veces parpadea la persona de la imagen. En un Deepfake, la persona parpadea menos veces de las que lo haría una persona en un vídeo real.</p>
+            </div>
+        </div>
+    </div>
+    <div id="prevencionPantalla5" style="position: relative; height: 94vh; width: 97vw; padding: 3vh 3vh;" class="oculto">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES </h1>
+        <div class="pan5div1">
+            <img class="btnizq" src="Imagenes/botonizq.png" alt="">
+            <img class="fondopreven" src="Imagenes/fondopreven.png" alt="">
+            <img class="botonprev" src="Imagenes/botonder.png" alt="">
+            <img class="cuelloimg" src="Imagenes/cuello.png" alt="">
+            <div class="pan5div2">
+            <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: start;">CUELLO Y CARA</h2>
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 2vw;">Fijarse en cuántas veces parpadea la persona de la imagen. En un Deepfake, la persona parpadea menos veces de las que lo haría una persona en un vídeo real.</p>
+            </div>
+        </div>
+    </div>
+    <div id="prevencionPantalla6" style="position: relative; height: 94vh; width: 97vw; padding: 3vh 3vh;" class="oculto">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES </h1>
+        <div class="pan6div1">
+            <img class="btnizq" src="Imagenes/botonizq.png" alt="">
+            <img class="fondopreven" src="Imagenes/fondopreven.png" alt="">
+            <img class="botonprev" src="Imagenes/botonder.png" alt="">
+            <img class="detallesimg" src="Imagenes/detalles.png" alt="">
+            <div class="pan6div2">
+            <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: start;">DETALLES</h2>
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 2vw;">Si se trata de un Deepfake, podremos ver modificaciones repentinas en la imagen o cambios en el fondo del vídeo.</p>
+            </div>
+        </div>
+    </div>
+    <div id="prevencionPantalla7" style="position: relative; height: 94vh; width: 97vw; padding: 3vh 3vh;" class="oculto">
+        <h1 style="font-family: 'Staatliches-Regular'; font-size: 5vw; position: absolute; margin-top: 5vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS VIRTUALES </h1>
+        <div class="pan7div1">
+            <img class="btnizq" src="Imagenes/botonizq.png" alt="">
+            <img class="fondopreven" src="Imagenes/fondopreven.png" alt="">
+            <img class="botonprev" src="Imagenes/botonder.png" alt="">
+            <img class="bocaimg" src="Imagenes/bocaimg.png" alt="">
+            <div class="pan7div2">
+            <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: start;">DETALLES</h2>
+            <p style="font-family: 'Spinnaker-Regular'; font-size: 2vw;">Si se trata de un Deepfake, podremos ver modificaciones repentinas en la imagen o cambios en el fondo del vídeo.</p>
+            </div>
+        </div>
+    </div>
+    <div id="prevencionPantalla8" style="position: relative; height: 94vh; width: 96vw; padding: 3vh 3vh;" class="oculto">
+        <h1 class="titulopant8" style="font-family: 'Staatliches-Regular'; font-size: 6vw; margin-top: 25vh; margin-left: 5vh;">PREVENCIÒN DE  <br>ESTAFAS <br>VIRTUALES </h1>
+        <div class="columnaprev8">
+            <aside id="contenedorContenedores__Definicion" class="prevencionextra">
+                <div class="contenedor__Prevencion seleccion"><img class="img_contenedorprev" src="./Imagenes/camara.png" alt=""></div>
+                <div class="contenedor__Prevencion seleccion"><img class="img_contenedorprev" src="./Imagenes/bocina.png" alt=""></div>
+                <div class="contenedor__Prevencion seleccion"><img class="img_contenedorprev" src="./Imagenes/reloj.png" alt=""></div>
+            </aside>
+
+            <aside id="contenido__Prevencion" class="contenido__Prevencion oculto">
+                    <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: center;">ORIGEN DE LA GRABACIÒN</h2>
+                    <ul style="font-family: 'Spinnaker-Regular'; font-size: 2vw; padding-left: 18%; padding-right: 10%;"><li>
+                        Inteligencia artificial que se utiliza para crear o alterar contenido audiovisual. </li></ul>
+            </aside>
+
+            <aside id="contenido__Prevencion2" class="contenido__Prevencion oculto">
+                <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: center;">SONIDO</h2>
+                <ul style="font-family: 'Spinnaker-Regular'; font-size: 2vw; padding-left: 18%; padding-right: 10%;"><li>
+                    Es frecuente encontrar en los Deepfakes una mala sincronización entre el movimiento de los labios y el sonido. </li></ul>
+            </aside>
+
+            <aside id="contenido__Prevencion3" class="contenido__Prevencion oculto">
+                <h2 style="font-family: 'Staatliches-Regular'; font-size: 4vw; text-align: center;">DURACIÒN</h2>
+                <ul style="font-family: 'Spinnaker-Regular'; font-size: 2vw; padding-left: 18%; padding-right: 10%;"><li>
+                    Inteligencia artificial que se utiliza para crear o alterar contenido audiovisual. </li></ul>
+            </aside>
+
+        </div>
+        
+    </div>
+    
+
+</section>
+</body>
+<script src="index.js"></script>
+</html>
